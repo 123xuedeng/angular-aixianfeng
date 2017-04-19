@@ -1,0 +1,18 @@
+html,body{width: 100%;height: 100%;}
+#wrap{width:100%;height: 100%;position: relative;}
+#head{width: 100%;height: 10%;background:#FFD100;position: absolute;top: 0;text-align: center;display: table;}
+#head>h2{display: table-cell;vertical-align: middle;}
+#main{width: 100%;height: 80%;background:#00FFFF;position: absolute;top: 10%;}
+#main>div{width:100%;height:100%;position: absolute;background:#C4D39F ;;}
+#tab{width: 100%;height: 10%;position: fixed;bottom: 0;background: #E0FFFF;}
+#tab ul{width: 100%;height: 100%;}
+#tab li{width: 25%;height: 100%;display: table;float: left;text-align: center;}
+#tab li a{display: table-cell;vertical-align: middle;}
+/*首页轮播图*/
+.swiper-container{width: 100%;}
+.swiper-slide img{width:100%;}
+#main .homeMenu{width:100% ;height: 180px;margin-top:12px;background: #fff;}
+#mian .homeMenu>ul{width:100% ;height: 100%;}
+#main .homeMenu >ul li{width:25% ;height: 50%;float: left;}
+#main .homeMenu >ul li img{width:100% ;height: 100%;}
+#main .homeMenu >ul li p{width:100% ;height: 100%;text-align: center;font-size: 14px;}
